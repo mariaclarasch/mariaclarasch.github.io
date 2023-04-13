@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <meta charset = "UTF - 8">
+        <meta name = "viewport" content = "">
+        <title> Aula forms </title>
+        <link rel = "icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZnemPhNg2VwhFBh-8jD8NUvvNq0dqu9lcgk0yjPDMw&s">
+    </head>
+    <body> 
+
+        <h1> Formulário </h1>
+        <form>
+
+            Nome: <input type = "text" name = "nome" value = "Maria Clara" readonly><br> 
+            Senha: <input type = "password" name = "senha" maxlength = "8"><br>
+            <input type = "email" name ="email" placeholder = "Digite seu email..."><br>
+            Número: <input type = "number" name = "número" min = "5" max = "20"><br>
+            Valor: <input type = "range" name = "valor" mi n= "0" max = "50" value = "10"><br>
+            Gênero: 
+            <input type = "radio" name = "genero" required> Masculino
+            <input type = "radio" name = "genero" > Feminino<br>
+            
+            Time: 
+            <input type = "radio" name = "time"> Grêmio
+            <input type = "radio" name = "time"> Inter
+            <input type = "radio" name = "time"> Outro<br>
+
+            Minhas matérias: <br>
+            <input type = "checkbox" name = "matemática"> Matemática<br>
+            <input type = "checkbox" name = "historia"> História<br>
+            <input type = "checkbox" name = "ingles" checked> Inglês<br>
+            <input type = "checkbox" name = "geografia"> Geografia<br>
+
+            Cor: <input type = "color" name = "cor"><br>
+            Data: <input type = "date" name = "data"><br>
+            Data e Hora <input type = "datetime-local" name = "datahora"><br>
+            Arquivo: <input type = "file" name = "arquivo"><br>
+            Selecionar comida: <br>
+            <select> 
+                <option name = "churrasco">Churrasco</option>
+                <option name = "bala">Bala</option>
+                <option name = "sushi">Sushi</option>
+            </select><br>
+            Descrição: 
+            <textarea name = "descricao">Boa Noite, </textarea><br><br>
+            <input type = "submit" value = "Enviar">
+
+            <a href = "revisao.html">Voltar</a>
+
+            <!--
+                value (valor padrão)
+                readonly (apenas ler o campo)
+                disabled (o campo fica desativado)
+                maxlength (delimite o tam do texto)
+                placeholder (insere descrição no campo)
+                min/max (delimita campos numéricos)
+                checked (deixa o campo marcado por padrão)
+                required (torna o campo obrigatório)
+
+            -->
+  
+        </form>
+
+    </body>
+</html>
