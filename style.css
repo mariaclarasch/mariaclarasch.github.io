@@ -1,0 +1,23 @@
+/* Seletor {
+    Atributo: valor;
+}
+unidade de medida da tela do computador 50vh, como se fosse porcentagem, 50%*/
+
+div {
+    background-color: darkgrey;
+    /*height: 50px; altura da borda*/
+    width: 90%;
+    /*margin: 30px; todas as direções
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 20px;*/
+    margin: 20px 0 50px 10px; /*cima, direta, baixo, esquerda, se coloca só dois elementos, o primeiro ele entende em cima e em baixo, e o segundo esquerda e direita, mesmas regras no padding*/
+    padding: 10px 0; 
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+body{
+    font-size: 15px;
+}
