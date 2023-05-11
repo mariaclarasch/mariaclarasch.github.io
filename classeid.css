@@ -8,7 +8,9 @@
 
 .início:hover{
     color: blue;
-    
+    background-color: antiquewhite;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .banner{
