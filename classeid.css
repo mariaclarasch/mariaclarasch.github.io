@@ -6,6 +6,11 @@
     /* "." indica class*/
 }
 
+.início:hover{
+    color: blue;
+    
+}
+
 .banner{
     background-color: grey;
     color: white;
@@ -45,5 +50,4 @@
     top: 20px;
     left: calc( 50% - 20px);
     /* bottom, em baixo*/
-
 }
