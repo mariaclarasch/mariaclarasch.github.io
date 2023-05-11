@@ -1,0 +1,49 @@
+.início{
+    background-color: brown;
+    border: 3px dashed black;
+    text-align: center;
+    padding: 10px 0;
+    /* "." indica class*/
+}
+
+.banner{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#redondo{
+    /* "#" indica o id*/ 
+    border-radius: 30px;
+}
+
+#azul{
+    color: aqua;
+}
+
+#metade{ 
+    width: 50%;
+}
+
+.banner div{
+    background-color: rgb(209, 192, 171);
+    color: black;
+    margin: 10px 20px;
+}
+
+.fixa{ 
+    color: crimson;
+    border: 3px solid crimson;
+    background-color: burlywood;
+    width: 40px; /* largura*/
+    height: 40px; /* altura */
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: calc( 50% - 20px);
+    /* bottom, em baixo*/
+
+}
