@@ -1,0 +1,47 @@
+/* TEXTCRAFT*/
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: aquamarine;
+    height: 60px; /* não necessário depois do display flex*/
+    display: flex;
+    justify-content: space-around;
+    /* espaço que não muda com o tamanho da tela gap: 15px;*/ 
+    align-items: center;
+    border-bottom: 3px dashed orangered;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar a{
+    color: black;
+    padding: 0px 30px; /* pode ser 0 pq ja dissemos que queremos 100%*/
+    text-decoration: none;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center; /*só funciona com o display flex*/
+    /* por conta de ser flex não funciona text-align: center;*/
+    justify-content: center;
+    
+}
+/* para editar link direto na seção do link*/
+
+.navbar a:hover{
+    background-color: brown;
+    text-decoration: underline;
+}
+
+.navbar img{
+    height: 35px;
+}
