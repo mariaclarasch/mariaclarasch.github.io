@@ -40,6 +40,6 @@ body{
 .imagem2{
     height: 200px;
     background-image: url('img/imgfundo.jpg');
-    background-size: cover;
-    background-position: bottom;
+    background-size: cover; /*tamanho do background, cover cobrir o tamnho do elemneto*/
+    background-position: bottom; /*quando a tela for ajustada vai focar na parte escrita*/
 }
