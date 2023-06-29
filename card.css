@@ -1,0 +1,27 @@
+.cards{
+    background-color: brown;
+    display: flex;
+    justify-content: center; /* ou space sem o gap*/
+    gap: 20px;
+    flex-wrap: wrap; /* itens vão para baixo conforme tela diminui de tamanho*/
+}
+
+.cards a{
+    border: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 15px;
+}
+
+.cards a img{
+    height: 150px;
+    width: 150px;
+}
+
+.cards a label{
+    height: 40px;
+    display: flex;
+    justify-content: center; /* alinhamento horizontal */
+    align-items: center; /* alinhamento vertical */
+}

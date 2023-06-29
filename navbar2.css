@@ -43,10 +43,28 @@ h1{
     color: black;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .navbar div label{
     display: flex;
     gap: 5px;
     align-items: center;
+}
+
+.card{
+    display: flex;
+    border: 5px solid rgb(41, 216, 247);
+    gap: 50px;
+    margin: 0px 50px;
+}
+
+.card label{
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
 }
