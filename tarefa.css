@@ -10,6 +10,38 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.dropdown{
+    display: none;
+}
+
+.navbar a, .dropdown, .dropdown a{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color:purple;
+}
+
+
+.dropdown div{
+    background-color: blueviolet;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.dropdown:hover div{
+    display: flex;
 }
 
 .content{
@@ -30,5 +62,27 @@ body{
 .corpo{
     background-color: brown;
     width: calc(100% - 230px)
+}
+
+@media (max-width: 800px){/* Sempre disso para menos*/
+    
+    .lateral{
+        display: none;
+    }
+
+    .corpo{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+
+    .navbar > a{
+        display: none;
+    }
+
+    .dropdown{
+        display: flex;
+    }
 }
 
